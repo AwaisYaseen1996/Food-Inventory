@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Food Shop</h1>
+    <div class="sale-purchase-container">
+      <h2>Sale Page</h2>
+      <div class="form">
+        <input type="text" id="sale-item" placeholder="Item Name" />
+        <input type="number" id="sale-quantity" placeholder="Quantity" />
+        <input type="number" id="sale-price" placeholder="Price (PKR)" />
+        <button onclick="addToSaleList()">Add Item</button>
+      </div>
+      <ul id="sale-list"></ul>
+      <div class="total">Total: <span id="sale-total">0 PKR</span></div>
+      <button onclick="downloadPDF('sale-list')">Download PDF</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

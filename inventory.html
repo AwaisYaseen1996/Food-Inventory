@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Food Shop</h1>
+
+    <div class="inventory-container">
+      <h2>Inventory Page</h2>
+      <div class="form">
+        <input type="text" id="inventory-item" placeholder="Item Name" />
+        <input type="number" id="inventory-quantity" placeholder="Quantity" />
+        <button onclick="addToInventoryList()">Add Item</button>
+      </div>
+      <ul id="inventory-list"></ul>
+      <button onclick="downloadPDF('inventory-list')">Download PDF</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
