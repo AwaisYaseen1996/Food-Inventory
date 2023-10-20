@@ -6,17 +6,17 @@ const inventoryButton = document.getElementById("inventory-button");
 // Add event listeners to the buttons
 saleButton.addEventListener("click", () => {
     // Redirect to the Sale page
-    window.location.href = "sale.html";
+    window.location.href = "./pages/sale.html";
 });
 
 purchaseButton.addEventListener("click", () => {
     // Redirect to the Purchase page
-    window.location.href = "purchase.html";
+    window.location.href = "./pages/purchase.html";
 });
 
 inventoryButton.addEventListener("click", () => {
     // Redirect to the Inventory page
-    window.location.href = "inventory.html";
+    window.location.href = "./pages/inventory.html";
 });
 
 
